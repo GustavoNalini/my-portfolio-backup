@@ -1,0 +1,143 @@
+.body {
+    font-family: Work Sans;
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #212121;
+}
+
+a {
+    text-decoration: none;
+    color: #fbfeff;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+.about-section .about-text-div p {
+    font-family: SF Pro Display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2.4rem;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 7rem;
+    background: #212121;
+    position: relative;
+    margin-top: 10%;
+}
+
+a:hover {
+    color: #d64cA8;
+}
+
+.border-bottom-lightgray {
+    border-bottom: 1px solid #d64cA8
+}
+
+
+
+.navbar-link a {
+    margin: 12px;
+    font-size: 20px;
+    border-bottom: 1px solid #d64cA8
+}
+
+.navbar-logo img {
+    height: 200px;
+}
+
+.navbar {
+    padding-top: 12px;
+    background: #212121;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.sillbar-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 7rem;
+    background: #212121;
+    position: relative;
+    margin-top: 10%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skill-bar {
+    max-width: 1200px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between
+}
+
+
+.flex {
+    display: flex;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text {
+    float: left;
+    width: 800px;
+    border: 2px solid #d64cA8;
+    padding: 3px;
+
+
+}
+
+.Contact_text {
+    float: right;
+    width: 300px;
+    border: 3px solid #d64cA8;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+/* Color and Backgrounds */
+
+.color-primary {
+    color: #d64cA8
+}
+
+.bg-primary {
+    background-color: #d64cA8;
+    width: 500px;
+}
